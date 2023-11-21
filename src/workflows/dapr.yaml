@@ -1,0 +1,8 @@
+version: 1
+common:
+  resourcesPath: ./DaprWorkflows/dapr/resources
+apps:
+  - appId: DaprWorkflows
+    appDirPath: ./DaprWorkflows
+    command: ["dotnet", "run"] 
+    appLogDestination: console
